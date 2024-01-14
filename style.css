@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 header{
     background: rgba(255, 144, 14, 0.10);
 }
@@ -199,12 +202,19 @@ footer p{
         flex-direction: column;
         position: relative;
         width: 260px;
-        right: 100px;
+        right: 120px;
     }
     .header-titel{
-        font-size: 1.8rem;
-        text-align: left;
-
+        font-size: 1.4rem;
+        padding-left: 50px;
+        text-align: center;
+    }
+    .g3{
+        padding-left: 20px;
+        font-size: 2rem;
+    }
+    #btn{
+        margin-left: 66px;
     }
     .header-text p, .team-container-text{
         width: 100%;
@@ -228,12 +238,12 @@ footer p{
         margin-top: 40px;
         position: relative;
         width: 260px;
-        right: 100px;
+        right: 80px;
     }
     .feature{
         display: block;
         position: relative;
-        right: 100px;
+        right: 80px;
     }
     .feature-text{
         width: 260px;
@@ -258,24 +268,24 @@ footer p{
         grid-template-columns: repeat(2,1fr);
         gap: 40px;
         position: relative;
-        right: 100px;
+        right: 80px;
     }
     .facts-text{
         width: 260px;
         position: relative;
-        right: 100px;
+        right: 80px;
     }
     .our-sponsors-text{
         width: 240px;
         position: relative;
-        right: 100px;
+        right: 80px;
     }
     .our-sponsors-items{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 40px;
         position: relative;
-        right: 100px;
+        right: 80px;
     }
     footer{
         width: 100%;
